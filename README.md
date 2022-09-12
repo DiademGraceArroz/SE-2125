@@ -1,4 +1,4 @@
 # LABORATORY
-SE 2125
-Web Development Application
-Sir Srilan Catalinio
+- SE 2125
+- Web Development Application
+- Sir Srilan Catalinio
