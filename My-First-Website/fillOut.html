@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fill out Information</title>
+  <link rel="stylesheet" href="src/firstWebsite.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+</head>
+
+<body background="https://www.designyourway.net/blog/wp-content/uploads/2018/11/original-goo.jpg">
+  <div class="fillOut-wrapper">
+    <div class="fillOut-card">
+
+      <div>
+        <h5 style="font-size: larger">Enter Name</h5>
+        <br />
+        <div>
+          <div>
+            <label style="font-family: arial; font-size: medium">First Name:</label>
+            <input class="firstname" id="first-name" type="text" placeholder="First Name" required />
+          </div>
+
+          <br />
+
+          <div>
+            <label style="font-family: arial; font-size: medium">Last Name:</label>
+            <input class="lastname" id="last-name" type="text" placeholder="Last Name" required />
+          </div>
+
+          <br />
+          <div>
+            <a class="btn btn-primary" id="save-button">Save</a>
+            <a href="home.html" class="btn btn-danger" id="cancel-button">Cancel</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script type="module" src="fillOut.js"></script>
+
+</html>
