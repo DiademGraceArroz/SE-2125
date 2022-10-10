@@ -6,7 +6,7 @@ const peopleList = document.getElementById("people-list"); // list
 const headerList = document.getElementById("header"); // list header
 
 // call outside for the fill out form to be hidden at first
-peopleDetails.style.visibility = "hidden";
+// peopleDetails.style.visibility = "hidden";
 
 addPerson.onclick = () => {
     peopleDetails.style.visibility = "visible";
