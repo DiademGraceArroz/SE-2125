@@ -24,7 +24,7 @@ const postLoad = () => {
 
     if ((userName == "admin" && password == "root") || password == "1234") {
       console.log("redirect");
-      // redirect to the home.html
+      // redirect to the main page
       location.href = "home.html";
     } else {
       console.log("Access denied.");
